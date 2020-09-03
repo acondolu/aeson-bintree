@@ -1,0 +1,10 @@
+resolver: lts-16.12
+
+packages:
+- .
+
+extra-deps:
+- git: http://github.com/acondolu/aeson
+  commit: 67503debff15b95bdc5f753de8125947bf0aa3ed
+- data-fix-0.3.0@sha256:058a266d1e658500e0ffb8babe68195b0ce06a081dcfc3814afc784b083fd9a5,1645
+- strict-0.4@sha256:1b50c7c9c636c3a1bbc7f8873b9be48f6ca0faca4df6eec6a014de6208fb1c0e,4200
